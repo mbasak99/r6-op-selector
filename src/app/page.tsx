@@ -1,5 +1,8 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <div>hello world</div>;
+  return (
+    <main className="flex p-10">
+      <h1 className="text-4xl font-bold">R6 Operator Selector</h1>
+      <div></div>
+    </main>
+  );
 }
